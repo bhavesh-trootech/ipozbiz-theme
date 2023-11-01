@@ -1,0 +1,18 @@
+.page-id-11374 .products .product:not(.product__card):not(.product__no-border):not(.product__list):not(.product__space){
+    border-left: 1px solid #eae8e4 !important;
+    border-bottom: 1px solid #eae8e4 !important;
+    border-top: 1px solid #eae8e4 !important;
+    border-right: 1px solid #eae8e4 !important;
+}
+
+.page-id-11374 .products .product:not(.product__card):not(.product__no-border):not(.product__list):not(.product__space):hover {
+    border-color: #eae8e4 !important;
+    border-bottom: 1px solid #000 !important;
+    border-right: 1px solid #000 !important;
+}
+@media(max-width:1023px){
+.page.page-id-11374 ul.products.list-unstyled.row li.product-category.product {
+        width: 210px !important;
+        max-width: 100% !important;
+    }
+}
